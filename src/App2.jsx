@@ -41,7 +41,6 @@ function Game(){
   
   return (
     <div className='game'>
-     <div className='status'>{status}</div> 
     <div className='board' >
     <button  className='restart' id='restart' onClick={() => restart()}>{status} Reiniciar</button>
     <button  className='restart2' id='restart2' onClick={() => restart()}>Reiniciar</button>
